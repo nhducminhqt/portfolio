@@ -146,7 +146,7 @@ document
     btn.value = "Sending...";
 
     const serviceID = "Send_Email";
-    const templateID = "template_71brhqg";
+    const templateID = "template_wt73syk";
 
     emailjs.sendForm(serviceID, templateID, this).then(
       () => {
