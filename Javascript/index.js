@@ -53,6 +53,7 @@ const srLeft = ScrollReveal({
 
 srLeft.reveal(".about-info", { delay: 35 });
 srLeft.reveal(".contact-info", { delay: 35 });
+srLeft.reveal(".reveal-left", { delay: 35 });
 const srRight = ScrollReveal({
   origin: "right",
   distance: "80px",
@@ -62,6 +63,7 @@ const srRight = ScrollReveal({
 
 srRight.reveal(".skills-box", { delay: 35 });
 srRight.reveal(".form-control", { delay: 35 });
+srRight.reveal(".reveal-right", { delay: 35 });
 
 const sections = document.querySelectorAll("section[id]");
 function scrollActive() {
