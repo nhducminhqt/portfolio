@@ -54,6 +54,22 @@ html {
   transition: 0.4s;
   color: var(--text-color-second);
 }
+.experience-box {
+  color: var(--text-color-second); /* ✅ Đây là điều bạn cần */
+  background-color: var(--color-white);
+  padding: 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.experience-box p {
+  font-size: 15px;
+  color: var(--text-color-second); /* Đảm bảo text nhỏ hơn cũng dùng đúng màu */
+}
+.experience-company {
+  font-style: italic;
+  font-weight: 500;
+  margin-bottom: 10px;
+  display: block;
+}
 .scroll-button {
   position: fixed;
   bottom: 30px;
@@ -548,25 +564,38 @@ footer {
   align-items: center;
   flex-direction: column;
   row-gap: 30px;
-  background: #f8f8f8;
+  background: var(--body-color); /* ✅ đổi màu theo light/dark */
+  color: var(--text-color-second); /* ✅ màu chữ chuyển theo theme */
   padding-block: 40px 60px;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
+
 .top-footer p {
   font-size: 25px;
   font-weight: 600;
+  color: var(--text-color-second); /* ✅ dùng biến */
 }
+
 .middle-footer .footer-menu {
   display: flex;
 }
+
 .footer_menu_list {
   list-style: none;
 }
+
 .footer_menu_list a {
   text-decoration: none;
-  color: var(--text-color-second);
+  color: var(--text-color-second); /* ✅ biến đổi theo theme */
   font-weight: 500;
   margin-inline: 20px;
+  transition: color 0.3s ease;
 }
+
+.footer_menu_list a:hover {
+  color: var(--first-color); /* hoặc --text-color-third tuỳ theme bạn */
+}
+
 .certificate-container {
   display: flex;
   flex-wrap: wrap;
