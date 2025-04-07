@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/LENOVO/Desktop/my project/portfolio/Css",
-      "program": "c:/Users/LENOVO/Desktop/my project/portfolio/Css/build/Debug/outDebug",
+      "cwd": "c:/Users/LENOVO/Desktop/my project/portfolio/css",
+      "program": "c:/Users/LENOVO/Desktop/my project/portfolio/css/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

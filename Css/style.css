@@ -567,6 +567,47 @@ footer {
   font-weight: 500;
   margin-inline: 20px;
 }
+.certificate-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.cert-info {
+  flex: 1 1 50%;
+  min-width: 300px;
+}
+
+.certificate-box {
+  margin-bottom: 20px;
+}
+
+.certificate-box i {
+  font-size: 24px;
+  margin-right: 10px;
+  color: var(--main-color);
+}
+
+.certificate-box h3 {
+  margin: 5px 0;
+}
+
+.cert-image {
+  flex: 1 1 40%;
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.cert-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: var(--box-shadow);
+}
 .footer-social-icons {
   display: flex;
   gap: 30px;
